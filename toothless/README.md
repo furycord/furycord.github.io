@@ -1,0 +1,1 @@
+# Furycord Bot Assets
