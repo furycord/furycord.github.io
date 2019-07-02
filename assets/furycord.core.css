@@ -11,9 +11,44 @@
     --brown: #8B4513;
     --forest: #228B22;
 }
+/*
+.jumbotron {
+    background-image: url(/assets/jumbotron.jpg);
+    background-size: cover;
+}
+*/
+.avatar-wrapper {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.avatar { 
+    background-image: url(/assets/avatar.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--black);
+}
+.status {
+    position: relative;
+    background-color: var(--gray);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    bottom: 50px;
+    right: -145px;
+    border: 5px solid var(--black);
+}
+
+.padded { padding-top: 5px; padding-bottom: 5px; }
 
 .bg-dark { background-color: var(--dark) !important; }
+.bg-primary { background-color: var(--blurple) !important; }
+
+.badge-primary { background-color: var(--blurple) !important; }
 
 .status-online { background-color: var(--green); }
 .status-idle { background-color: var(--yellow); }
-.status-dnd { background-color: var(--gray); }
+.status-dnd { background-color: var(--red); }
+.status-offline { background-color: var(--gray); }
