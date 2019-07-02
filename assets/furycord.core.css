@@ -1,0 +1,19 @@
+:root {
+    --blurple: #7289DA;
+    --green: #43B581;
+    --yellow: #FAA61A;
+    --red: #F04747;
+    --gray: #747F8D;
+    --purple: #593695;
+    --white: #FFFFFF;
+    --dark: #2C2F33;
+    --black: #23272A;
+    --brown: #8B4513;
+    --forest: #228B22;
+}
+
+.bg-dark { background-color: var(--dark) !important; }
+
+.status-online { background-color: var(--green); }
+.status-idle { background-color: var(--yellow); }
+.status-dnd { background-color: var(--gray); }
